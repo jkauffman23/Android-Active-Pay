@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:orientation="horizontal">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#efefef">
+
+        <TextView
+            android:id="@+id/itemdescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D8000000"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp">
+
+
+
+
+                    <TextView
+                        android:id="@+id/itemcode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:gravity="left"
+                        android:lines="1"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:textColor="#D8000000"
+                        android:textSize="12sp"
+                        android:layout_alignParentLeft="true"/>
+
+                    <TextView
+                        android:id="@+id/quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:lines="1"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:textColor="#D8000000"
+                        android:textSize="12sp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <TextView
+                        android:id="@+id/linetotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:gravity="right"
+                        android:lines="1"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:textColor="#D8000000"
+                        android:textSize="12sp"
+                        android:layout_alignParentRight="true"/>
+
+           </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#000000" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

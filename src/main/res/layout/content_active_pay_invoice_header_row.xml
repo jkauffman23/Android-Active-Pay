@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<tools:TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/invoice_detail_row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textIsSelectable="true"
+
+    tools:context=".ActivePayInvoiceListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/attrib_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/attrib_label"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="#4a42a3"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/attrib_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D8000000"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+</tools:TableRow>

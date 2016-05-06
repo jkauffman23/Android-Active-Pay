@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Active-Pay-Android</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Enter Username</string>
+    <string name="prompt_password">Enter Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_out">Logout</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="terms_of_service">Active Mobile Terms of Use</string>
+    <string name="server_settings">Server Settings</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_invoice_list">Invoices</string>
+    <string name="title_invoice_detail">Invoice Detail</string>
+    <string name="title_activity_active_pay_server_settings">ActivePayServerSettingsActivity</string>
+    <string name="title_activity_active_pay_rejection_reasons">ActivePayRejectionReasonActivity</string>
+    <string name="connectivity_settings">Connectivity Settings</string>
+    <string name="server_settings_note">Note: Do not change these settings unless instructed by your system administrator</string>
+    <string name="system_default_slider">Use System Defaults</string>
+    <string name="ssl_slider">Use SSL</string>
+    <string name="server_address">Server Address (do not include http)</string>
+    <string name="server_port">Port</string>
+    <string name="web_service_path">Path</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="approver_title">Items for Approval</string>
+    <string name="rejection_reason_title">Rejection Reason</string>
+    <string name="details_title">Invoice Detail</string>
+    <string name="line_details_title">Line Items Detail</string>
+    <string name="header_nav">Header</string>
+    <string name="lines_nav">Lines</string>
+    <string name="image_nav">Image</string>
+    <string name="approve_nav">Approve</string>
+    <string name="route_nav">Route</string>
+    <string name="reject_nav">Reject</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="image_view">Image View</string>
+    <string name="route_document">Route Document</string>
+</resources>

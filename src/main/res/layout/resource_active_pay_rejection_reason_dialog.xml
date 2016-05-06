@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="275dp"
+    android:layout_height="200dp"
+    android:background="@drawable/curve_shape"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/txt_rejection_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Rejection Comments"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_rejection_description"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="Enter any additional comments with this rejection"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/txt_rejection_comments"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:hint="Rejection comments"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@drawable/unselected_rounded_corner"
+        android:linksClickable="true"
+        android:longClickable="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btn_rejection_submit"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/unselected_rounded_corner"
+            android:clickable="true"
+            android:text="Submit"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_rejection_cancel"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/unselected_rounded_corner"
+            android:clickable="true"
+            android:text="Cancel"
+            android:textColor="#5DBCD2"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
+ 

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context=".ActivePayServerSettingsActivity">
+
+    
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="25sp"
+        android:text="@string/connectivity_settings"
+        android:textSize="20sp"
+        android:textColor="#1b108c"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/server_settings_note"
+        android:textSize="15dp"
+        android:textColor="#ff0000"/>
+
+
+    <Switch
+        android:id="@+id/default_switch"
+        android:text="@string/system_default_slider"
+        android:layout_width="219dp"
+        android:layout_height="21dp"
+        android:track="@drawable/switch_track"
+        android:switchPadding="10dp"/>
+
+    <Switch
+        android:id="@+id/ssl_switch"
+        android:layout_marginTop="20dp"
+        android:text="@string/ssl_slider"
+        android:layout_width="219dp"
+        android:layout_height="21dp"
+        android:track="@drawable/switch_track"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="21sp"
+        android:text="@string/server_address"
+        android:textSize="15sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/server_address"
+        android:layout_marginRight="20pt"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="@string/server_address"
+        android:background="@drawable/white_rectangle"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="21sp"
+        android:text="@string/server_port"
+        android:textSize="15sp"
+        android:textColor="#000000"
+       />
+
+    <EditText
+        android:id="@+id/server_port"
+        android:layout_marginRight="20pt"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/white_rectangle"
+        android:singleLine="true"
+        android:hint="@string/server_port"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="21sp"
+        android:text="@string/web_service_path"
+        android:textSize="15sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/server_path"
+        android:layout_marginRight="20pt"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="@string/web_service_path"
+        android:background="@drawable/white_rectangle"
+        android:singleLine="true"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/server_save_button"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:background="@drawable/unselected_rounded_corner"/>
+
+        <Button
+            android:id="@+id/server_cancel_button"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textColor="#000000"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:background="@drawable/unselected_rounded_corner"/>
+
+
+    </LinearLayout>
+</LinearLayout>
